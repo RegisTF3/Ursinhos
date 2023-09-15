@@ -6,7 +6,7 @@
 package ursinhos.Controler;
 
 import java.util.ArrayList;
-
+import ursinhos.model.Ursinho;
 /**
  *
  * @author 182210131
@@ -61,7 +61,7 @@ public class ursinhocontrole {
 
    public ArrayList <Ursinho> criarUrsinho(String Base,String acessorios,String Roupas,float Preco){
        
-       ArrayList<Usrinho> listaUrsinho = new ArrayList<>();
+       ArrayList<Ursinho> listaUrsinho = new ArrayList<>();
         Ursinho ursinho = new Ursinho(base, acessorios, Roupas, Preco);
         listaUrsinho.add(ursinho);
         return listaUrsinho;
